@@ -1,0 +1,403 @@
+
+body
+{
+  background-color: lavender;
+}
+
+ .login_signin
+ {
+    background: url(air4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .logintable
+ {
+ 	border: 3px solid black;
+ 	border-radius: 10px;
+    margin-top: 100px;
+    background-color:  #a6bed9;
+
+ }
+
+
+  .dashboard
+  {
+     background: url(air7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  input[type=text]
+  {
+
+   
+  	  	margin-bottom: 5px;
+  	padding-top: 5px;
+  	background-color: lavender;
+    width: 120px;
+  transition: width 0.3s;
+  transition-timing-function: linear;
+  text-align: center;
+  
+
+  }
+
+   input[type=password]
+   {
+   	    width: 120px;
+  transition: width 0.3s;
+  
+   	   	   	padding-top: 5px;
+   	   	background-color: lavender;
+            transition-timing-function: linear;
+
+   }
+
+   input[type=reset]
+   {
+    
+   	border-radius: 7px;
+   	margin-top: 10px;
+   	padding: 7px;
+   
+   	 background-color: lavender;
+       cursor: pointer;
+
+     }
+
+
+    input[type=submit]
+   {
+    text-align: center ;
+   	border-radius: 7px;
+   	padding: 7px;
+   	margin-top: 20px;
+   	
+      margin-bottom: 10px;
+      background-color: lavender;
+      cursor: pointer;
+   }
+
+
+ input[type=submit]:hover
+ {
+ 	   background: purple;
+     color: #fff;
+     border: 1px solid #eee;
+     border-radius: 7px;
+     box-shadow: 5px 3px 3px black;
+     text-shadow:none;
+     cursor: pointers;
+ }
+
+
+input[type=reset]:hover
+ {
+ 	   background: purple;
+     color: #fff;
+     border: 1px solid #eee;
+     border-radius: 7px;
+     box-shadow: 5px 3px 3px black;
+     text-shadow:none;
+     cursor: pointer;
+ }
+
+
+  th 
+  {
+  	color: purple;
+  	font-weight: bold;
+    border: 1px solid #a6bed9;
+  }
+
+
+
+
+   tr.bordered {
+   	margin-top: 40px;
+    border-bottom: 2px solid black;
+}
+
+
+ button
+ {
+    transition: width 2s, height 4s;
+ 	margin-top: 15px;
+ 	background-color: white;
+
+ }
+
+  a
+  {
+  	text-decoration: none;
+  	color: purple;
+   font-weight: bold;
+   text-align: center;
+  }
+
+   a:hover
+   {
+    color: red;
+    font-weight: bold;
+   }
+
+icons
+{
+   font-size:20px;
+}
+
+
+ h2
+ {
+ 	font-family: Arial, Helvetica, sans-serif;
+ 	color: purple;
+ 	font-size: 30px;
+ }
+
+
+input[type=email]
+  {
+
+
+   margin-bottom: 5px;
+   padding-top: 5px;
+   background-color: lavender;
+   width: 150px;
+  transition: width 0,3s;
+transition-timing-function: linear;
+
+  }
+
+
+   input[type=email]:hover
+   {
+      width: 200px;
+      border-radius: 8px;
+
+   }
+
+
+    input[type=text]:hover
+    {
+      width: 200px;
+      border-radius: 8px;
+      
+    }
+
+      input[type=password]:hover
+    {
+      width: 200px;
+
+      border-radius: 8px;
+
+    }
+
+
+   .fa:hover
+   {
+      font-size: 30px;
+   }
+
+
+  h2
+  {
+    text-align: center;
+  }
+
+
+   button
+   {
+      padding: 9px;
+      background-color: lavender;
+      transition: all .2s ease-in-out;
+               }
+     
+
+   button:hover
+   {
+      box-size: 30px;
+      transform: scale(1.1);
+      box-shadow: 4px 2px 2px black;
+      font-size: 18px;
+      color: red;
+      font-weight: bold;
+   }  
+
+
+
+      h1
+      {
+           color: purple;
+           text-shadow: 2px 2px 2px black;
+           text-align: center;
+      }
+
+       form
+      {
+         text-align: center;
+      }
+  
+  .mylist1
+  {
+   align-content: center;  
+  }
+
+
+    input[type=date]
+  {
+
+   
+      margin-bottom: 5px;
+   padding-top: 5px;
+   background-color: lavender;
+    width: 150px;
+  transition: width 0.3s;
+  transition-timing-function: linear;
+  text-align: center;
+}
+
+    input[type=date]:hover
+   {
+      width: 200px;
+      border-radius: 8px;
+
+   }
+
+
+      input[type=radio]
+  {
+
+   
+      margin-bottom: 5px;
+   padding-top: 5px;
+   background-color: lavender;
+    
+  transition: width 0.3s;
+  transition-timing-function: linear;
+  text-align: center;
+}
+
+    input[type=radio]:hover
+   {
+       
+       -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);      
+
+   }
+
+
+    h3
+    {
+      color: red;
+      text-align: center;
+    }
+
+        p
+     {
+      text-align: center;
+      color: red;
+      font-weight: bold;
+
+   animation: animate 4s infinite;
+   animation-iteration-count: infinite;
+     }
+
+      @keyframes animate
+      {
+         0%
+         {
+              color: lavender;
+         }
+         100%
+         {
+            color: red;
+         }
+      }
+
+       td 
+       {
+        border: 1px solid  #a6bed9;
+       }
+
+
+
+        table.margin_submit td
+        {
+            margin-right: 40px;
+        }
+
+
+          tr.bordered {
+    margin-top: 40px;
+    border-right: 2px solid #000;
+}
+
+
+ .logintable1
+ {
+     background-color:  #a6bed9;
+    margin-left: 200px;
+    margin-top: 70px;
+ }
+
+  .logintable2
+  {
+     background-color:  #a6bed9;
+    margin-right: 200px;
+      }
+
+   h4
+   {
+    margin-left: 180px;
+    margin-bottom: 30px;
+    padding-right: 200px;
+
+   }
+
+    pre 
+    {
+        font-size: 15px;
+        color: purple;
+        text-align: center;
+       
+    }
+
+
+     .opt
+     {
+        background-color: lavender;
+     }
+
+
+      .tic
+      {
+             margin-top: 50px;
+     background-color:  #a6bed9;
+      }
+
+
+      .tic1
+      {
+        background-color:  #a6bed9;
+
+               margin-top: 50px;               
+      }
+
+
+       tr.border
+       {
+         border-bottom: 2px solid black;
+
+       }
+
+
+      td
+      {
+        font-weight: bold;
+        color: purple;
+
+      }
+

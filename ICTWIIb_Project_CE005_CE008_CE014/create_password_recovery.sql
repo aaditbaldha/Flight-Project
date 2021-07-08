@@ -1,0 +1,1 @@
+CREATE TABLE `flight_project`.`password_recovery` ( `Email` VARCHAR(30) NOT NULL , `Token` VARCHAR(255) NOT NULL ) ENGINE = InnoDB;

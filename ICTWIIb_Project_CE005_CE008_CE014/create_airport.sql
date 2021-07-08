@@ -1,0 +1,1 @@
+CREATE TABLE `flight_project`.`airport`(`id` INT(10) NOT NULL AUTO_INCREMENT, `country` VARCHAR(15) NOT NULL ,`city` VARCHAR(15) NOT NULL, `airport` VARCHAR(50) NOT NULL, PRIMARY KEY (`id`))ENGINE=InnoDB;

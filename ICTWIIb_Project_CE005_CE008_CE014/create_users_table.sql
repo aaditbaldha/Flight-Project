@@ -1,0 +1,1 @@
+CREATE TABLE `flight_project`.`users` ( `ID` INT(10) NOT NULL AUTO_INCREMENT , `Username` VARCHAR(30) NOT NULL , `Password` VARCHAR(255) NOT NULL , `First Name` VARCHAR(30) NOT NULL , `Last Name` VARCHAR(30) NOT NULL , `Email` VARCHAR(30) NOT NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB;
